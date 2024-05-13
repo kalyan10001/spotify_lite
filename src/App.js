@@ -24,7 +24,7 @@ function App() {
           <a className="navbar-brand" href="#">
             Navbar
           </a>
-          <div className="collapse navbar-collapse navbar-expand-lg" id="navbarSupportedContent">
+          <div className="navbar-expand-lg" id="navbarSupportedContent">
             <form className="d-flex" role="search">
               <input
                 onChange={(e) => { setTasks(e.target.value) }}
